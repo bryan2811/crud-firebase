@@ -1,8 +1,8 @@
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
-    apiKey: "AIzaSyAtVuzX9ivRRLwYMkdosUZfwaZkASQ9h1U",
-    authDomain: "primer-crud-668c0.firebaseapp.com",
-    projectId: "primer-crud-668c0",
+    apiKey: config.API_KEY,
+    authDomain: config.AUTH_DOMAIN,
+    projectId: config.PROJECT_ID
 });
   
 var db = firebase.firestore();
